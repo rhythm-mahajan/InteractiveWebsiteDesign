@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Snacks</title>
+        <link rel="icon" href="images/11.png" type="image/gif" sizes="16x16">
+        <link href="styles/styles.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbarContainer">
+                <a href="#home" id="navbarLogo">Snacks</a>
+                <div class="navbarToggle" id="mobileMenu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbarMenu">
+                    <li class="navbarItem">
+                        <a href="index.html#home" class="navbarLinks" id="Home">Home</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="signup.html" class="navbarLinks" id="Contact">Sign Up</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="index.html#about" class="navbarLinks" id="AboutUs">About Us</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="index.html#services" class="navbarLinks" id="Services">Services</a>
+                    </li>
+                    <li class="navbarBtn">
+                        <a href="signup.html" class="button" id="signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Sign Up Section -->
+        <div class="main" id="about">
+            <div class="mainContainer">
+                <div class="mainImg--container">
+                    <div class="mainImg--card"><img src="images/1.png" alt="Snacks"></div>
+                </div>
+                <div class="mainContent">
+                    <h2>Sign UP</h2>
+                    <h1>We will be excited to have you in our team</h1>
+                    <form action="" method="post">
+                        <label for="myName">Name:</label>
+                         <input type="text" name="myName" class="form-control" id="myName"><br>
+                        <label for="myEmail">Email:</label>
+                         <input type="email" name="myEmail" class="form-control" id="myEmail"><br>
+                        <label for="myContact">Contact:</label>
+                        <input type="tel" name="myContact" class="form-control" id="myContact"><br>
+                        <input id="mySubmit" class="mainBtn" type="submit" value="Send Now" onClick="Submit()">
+                       </form>
+                    <p>Or Call us directly at 7775557755</p>
+                    <button class="mainBtn"><a href="tel:7775557755">Call Us</a></button>
+                </div>
+            </div>
+        </div>
+        <script src ="scripts/assignment2.js"></script>
+    </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Snacks</title>
+        <link rel="icon" href="images/11.png" type="image/gif" sizes="16x16">
+        <link href="styles/styles.css" rel="stylesheet">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navbarContainer">
+                <a href="index.html#home" id="navbarLogo">Snacks</a>
+                <div class="navbarToggle" id="mobileMenu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbarMenu">
+                    <li class="navbarItem">
+                        <a href="index.html#home" class="navbarLinks" id="Home">Home</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="explore.html" class="navbarLinks" id="Contact">Explore</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="index.html#about" class="navbarLinks" id="AboutUs">About Us</a>
+                    </li>
+                    <li class="navbarItem">
+                        <a href="index.html#services" class="navbarLinks" id="Services">Services</a>
+                    </li>
+                    <li class="navbarBtn">
+                        <a href="signup.html" class="button" id="signup">Sign Up</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Explore Section-->
+        <div class="services" id="services">
+            <h1>Our Products</h1>
+            <div class="servicesWrapper">
+                <div class="servicesCard">
+                    <h2>Lays</h2>
+                    <img src="images/3.png" alt="Lays" width="301" height="250">
+                    <div class="servicesBtn"><button onclick=Lays()>Taste Me</button></div>
+                </div>
+                <div class="servicesCard">
+                    <h2>Doritos</h2>
+                    <img src="images/4.png" alt="Doritos" width="301" height="250">
+                    <div class="servicesBtn"><button onclick=Doritos()>Taste Me</button></div>
+                </div>
+                <div class="servicesCard">
+                    <h2>Cheetos</h2>
+                    <img src="images/5.png" alt="Cheetos" width="301" height="250">
+                    <div class="servicesBtn"><button onclick=Cheetos()>Taste Me</button></div>
+                </div>
+                <div class="servicesCard">
+                    <h2>Pringles</h2>
+                    <img src="images/6.png" alt="Pringles" width="301" height="250">
+                    <div class="servicesBtn"><button onclick=Pringles()>Taste Me</button></div>
+                </div>
+            </div>
+        </div>
+        <script src ="scripts/assignment3.js"></script>
+    </body>
+</html>
